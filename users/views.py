@@ -128,7 +128,7 @@ class otp(TemplateView):
 
 def home(request):
     if not request.user.is_authenticated:
-        return redirect('/')
+        return redirect('login')
     return  render(request,'home.html')  
 
 def logout1(request):
