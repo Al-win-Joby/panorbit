@@ -1,0 +1,60 @@
+
+.divcolor{
+    
+    
+    background: rgb(238, 238, 238) !important;
+    border: 1px solid #6c6a6aa6;
+}
+.divtext{
+    color: #333333;
+    
+}
+.logintext{
+    color: #401BD6;
+}
+.inp{
+    width: 75px !important;
+    height: 75px !important;
+    font-size: 50px;
+}
+.hovers{
+    width: 10;
+}
+.hovers:hover{
+    color: #401BD6 !important;
+}
+
+      /* Center the search bar */
+      #search-form {
+        display: flex;
+        justify-content: center;
+        margin-top: 100px;
+      }
+      
+      /* Style the input box */
+      #search-input {
+        padding: 12px 20px;
+        border: none;
+        border-radius: 24px;
+        font-size: 16px;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        width: 500px;
+      }
+      
+      /* Style the search button */
+      #search-button {
+        background-color: #4285F4;
+        color: #fff;
+        border: none;
+        border-radius: 24px;
+        padding: 12px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+        margin-left: 10px;
+      }
+      
+      /* Hover effect on the search button */
+      #search-button:hover {
+        background-color: #357ae8;
+      }
